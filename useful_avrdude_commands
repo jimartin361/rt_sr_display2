@@ -1,0 +1,2 @@
+avrdude -p c128 -P /dev/ttyUSB0 -c jtag1 -t
+avrdude -p c128 -P /dev/ttyUSB0 -c jtag1 -U flash:w:fcan.hex
